@@ -1,0 +1,36 @@
+# ModelSim / Questa generated files
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.log
+
+# Compile output
+*.o
+*.vo
+*.so
+*.dll
+
+# Temp files
+*~
+*.tmp
+*.bak
+
+# Quartus / Vivado build files
+db/
+incremental_db/
+*.qsf
+*.qpf
+*.sopcinfo
+*.sof
+*.jou
+*.dcp
+*.str
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment (if used for scripts)
+venv/
