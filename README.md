@@ -3,6 +3,8 @@ SystemVerilog Labs & Personal Projects
 This repository contains my SystemVerilog lab work, HDL experiments, and personal hardware design projects.
 All code is structured into labs (university coursework) and independent projects.
 
+This is a personal learning repo, but suggestions are welcome.
+
 Folder Structure
 1. labs/
 
