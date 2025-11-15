@@ -1,0 +1,15 @@
+C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_tb
+
+Top level modules:
+	simple_tb
+
+} {} {}} C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SillyFunction
+
+Top level modules:
+	SillyFunction
+
+} {} {}}

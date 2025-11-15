@@ -1,0 +1,122 @@
+# Compile of SillyFunction.sv was successful.
+vsim -gui SillyFunction
+# vsim -gui SillyFunction 
+# Start time: 20:25:22 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/SillyFunction/*
+run -all
+run -all
+run -all
+run
+run
+run
+quit -sim
+# End time: 20:30:04 on Nov 15,2025, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 5
+# Compile of simple_tb.sv was successful.
+# Compile of simple_tb.sv was successful.
+vsim -gui simple_tb
+# vsim -gui simple_tb 
+# Start time: 21:15:35 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.simple_tb
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/simple_tb/*
+run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 21:21:51 on Nov 15,2025, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 4
+# Compile of self_tb.sv was successful.
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:24:06 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/self_tb/*
+run
+# 101 failed.
+# 110 failed.
+# 111 failed.
+quit -sim
+# End time: 21:25:44 on Nov 15,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 3
+# Compile of self_tb.sv was successful.
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:27:02 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/self_tb/*
+run
+# 001 failed.
+# 101 failed.
+# 110 failed.
+# 111 failed.
+run -all
+quit -sim
+# End time: 21:28:12 on Nov 15,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# Compile of self_tb.sv was successful.
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:33:43 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/self_tb/*
+run -all
+# 010 failed.
+# 101 failed.
+# 110 failed.
+# 111 failed.
+quit -sim
+# End time: 21:35:34 on Nov 15,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 2
+# Compile of self_tb.sv was successful.
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:36:36 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# ** Error: (vsim-3033) Instantiation of 'sillyfunction' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /self_tb File: C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv Line: 5
+#         Searched libraries:
+#             C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/work
+# Error loading design
+# End time: 21:36:37 on Nov 15,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:37:03 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# ** Error: (vsim-3033) Instantiation of 'sillyfunction' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /self_tb File: C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv Line: 5
+#         Searched libraries:
+#             C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/work
+# Error loading design
+# End time: 21:37:03 on Nov 15,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of self_tb.sv was successful.
+vsim -gui self_tb
+# vsim -gui self_tb 
+# Start time: 21:37:18 on Nov 15,2025
+# Loading sv_std.std
+# Loading work.self_tb
+# Loading work.SillyFunction
+add wave -position insertpoint sim:/self_tb/*
+run -all
+# 010 failed.
+# 101 failed.
+# 110 failed.
+# 111 failed.

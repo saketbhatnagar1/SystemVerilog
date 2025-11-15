@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vself_tb
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1763239030
+!i10b 1
+!s100 `Ff3V[6QM;cDbJ;[SO>go1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IY_NN4`k:DDW^gkTdfmDhA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1
+w1763239013
+8C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv
+FC:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv
+!i122 6
+L0 1 25
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1763239030.000000
+!s107 C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/self_tb.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vSillyFunction
+R0
+!s110 1763234710
+!i10b 1
+!s100 gFlj2hCY]TJf1DD_<i^zD3
+R1
+IaQ;0_:bmZ3EmzQ2:J[hcI3
+R2
+S1
+R3
+w1763234663
+8C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv
+FC:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv
+!i122 0
+L0 2 8
+R4
+r1
+!s85 0
+31
+!s108 1763234709.000000
+!s107 C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/SillyFunction.sv|
+!i113 1
+R5
+R6
+n@silly@function
+vsimple_tb
+R0
+!s110 1763237715
+!i10b 1
+!s100 Ra:eUfbidOA4Xl0YA4z<>2
+R1
+IV7A1T^:mWI^OW`EROYh[P0
+R2
+S1
+R3
+w1763237711
+8C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv
+FC:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv
+!i122 1
+L0 2 17
+R4
+r1
+!s85 0
+31
+!s108 1763237715.000000
+!s107 C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/Labs/lab1/simple_tb.sv|
+!i113 1
+R5
+R6
