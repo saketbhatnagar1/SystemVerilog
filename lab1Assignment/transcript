@@ -1,0 +1,130 @@
+# Compile of mux_cont.sv failed with 1 errors.
+# Compile of mux_cont.sv failed with 1 errors.
+# Compile of muxIf.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of mux_cont.sv failed with 1 errors.
+# Compile of muxIf.sv was successful.
+# Compile of muxCase.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of testbenchmux.sv was successful.
+# Compile of latch.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux_cont.sv was successful.
+# Compile of muxIf.sv was successful.
+# Compile of muxCase.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of testbenchmux.sv was successful.
+# Compile of latch.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of mux_cont.sv failed with 2 errors.
+# Compile of mux_cont.sv failed with 2 errors.
+# Compile of mux_cont.sv failed with 2 errors.
+# Compile of muxIf.sv was successful.
+# Compile of muxCase.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of testbenchmux.sv was successful.
+# Compile of latch.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of mux_cont.sv was successful.
+# Compile of latch.sv was successful.
+# Compile of mux2to1.sv failed with 1 errors.
+# Compile of mux2to1.sv failed with 1 errors.
+# Compile of mux2to1.sv was successful.
+# Compile of testbenchmux.sv failed with 2 errors.
+# Compile of testbenchmux.sv failed with 1 errors.
+# Compile of testbenchmux.sv failed with 1 errors.
+# Compile of testbenchmux.sv failed with 1 errors.
+# Compile of testbenchmux.sv failed with 1 errors.
+# Compile of testbenchmux.sv failed with 1 errors.
+# Compile of testbenchmux.sv was successful.
+# Load canceled
+vsim testbenchmux
+# vsim testbenchmux 
+# Start time: 16:49:39 on Nov 16,2025
+# ** Error: (vsim-3170) Could not find 'testbenchmux'.
+#         Searched libraries:
+#             C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/work
+# Error loading design
+# End time: 16:49:40 on Nov 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 28
+vsim testbenchmux
+# vsim testbenchmux 
+# Start time: 16:49:58 on Nov 16,2025
+# ** Error: (vsim-3170) Could not find 'testbenchmux'.
+#         Searched libraries:
+#             C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/work
+# Error loading design
+# vsim testbenchmux 
+# Start time: 16:49:39 on Nov 16,2025
+# ** Error: (vsim-3170) Could not find 'testbenchmux'.
+#         Searched libraries:
+#             C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/work
+# Error loading design
+# End time: 16:49:40 on Nov 16,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 28
+# End time: 16:49:58 on Nov 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim tbmux
+# vsim tbmux 
+# Start time: 16:50:05 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.tbmux
+# Loading work.muxCont
+# Loading work.muxifelse
+# Loading work.muxcase
+# Loading work.muxhier
+# Loading work.mux2
+
+add wave *
+run 100ns
+# ** Note: $finish    : C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv(18)
+#    Time: 40 ps  Iteration: 0  Instance: /tbmux
+# 1
+# Break in Module tbmux at C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv line 18
+run
+add wave *
+quit -sim
+# End time: 16:51:19 on Nov 16,2025, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 1
+vsim tbmux
+# vsim tbmux 
+# Start time: 16:51:40 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.tbmux
+# Loading work.muxCont
+# Loading work.muxifelse
+# Loading work.muxcase
+# Loading work.muxhier
+# Loading work.mux2
+add wave *
+run -all
+# ** Note: $finish    : C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv(18)
+#    Time: 40 ps  Iteration: 0  Instance: /tbmux
+# 1
+# Break in Module tbmux at C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv line 18
+add wave *
+quit -sim
+# End time: 16:52:22 on Nov 16,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 1
+add wave *
+# Load canceled
+vsim work.tbmux
+# vsim work.tbmux 
+# Start time: 17:27:35 on Nov 16,2025
+# Loading sv_std.std
+# Loading work.tbmux
+# Loading work.muxCont
+# Loading work.muxifelse
+# Loading work.muxcase
+# Loading work.muxhier
+# Loading work.mux2
+add wave -position insertpoint sim:/tbmux/*
+add wave -position insertpoint sim:/tbmux/*
+run -all
+# ** Note: $finish    : C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv(18)
+#    Time: 40 ps  Iteration: 0  Instance: /tbmux
+# 1
+# Break in Module tbmux at C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv line 18
+quit -sim
+# End time: 17:28:20 on Nov 16,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1

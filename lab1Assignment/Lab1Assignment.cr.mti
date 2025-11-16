@@ -1,0 +1,37 @@
+C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/mux2to1.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/mux2to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+-- Compiling module muxhier
+
+Top level modules:
+	muxhier
+
+} {} {}} C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/latch.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/latch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module latch
+
+Top level modules:
+	latch
+
+} {} {}} C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/muxIf.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/muxIf.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxifelse
+
+Top level modules:
+	muxifelse
+
+} {} {}} C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/testbenchmux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tbmux
+
+Top level modules:
+	tbmux
+
+} {} {}} C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/muxCase.sv {1 {vlog -work work -sv -stats=none C:/Users/saket/OneDrive/Desktop/MastersItaly/Study/UNIBO/DigitalSystemsAndIntroductionToComputersArchitecture/SystemVerilogProjects/lab1Assignment/muxCase.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxcase
+
+Top level modules:
+	muxcase
+
+} {} {}}

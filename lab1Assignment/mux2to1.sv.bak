@@ -1,0 +1,20 @@
+module mux2(
+
+input logic a,b,sel,
+output logic y
+);
+
+assign y = sel?b:a;
+endmodule
+
+module muxhier( 
+input logic [3:0] d,
+input logic [1:0] sel,
+output logic y
+);
+logic y1,y2;
+mux2 m1(.a(d[0]), .b(d[1]), .sel(sel[0]), .y(y1));
+mux2 m1(.a(d[2]), .b(d[3]), .sel(sel[0]), .y(y2));
+mux2 m3(.a(y1) , .b(y2), .sel(sel[1]), .y(y));
+
+endmodule
